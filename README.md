@@ -109,13 +109,3 @@ EAR adopts a two-stage optimization approach:
 2. **EAR Framework:** An Entity-Aware Reasoning framework based on visual-linguistic foundation models, integrating supervised fine-tuning and entity-aware reward-driven GRPO.
 3. **Comprehensive Benchmarking:** Extensive experiments verifying the effectiveness of EAR in structured relational grounding, with consistent performance gains across different foundation models.
 
-## Citation 
-
-```
-@misc{author2026thinkandanswer,
-      title={Think and Answer ME: Benchmarking and Exploring Multi-Entity Reasoning Grounding in Remote Sensing},
-      author={First Author and Second Author and Third Author},
-      journal={ECCV 2026},
-      year={2026}
-}
-```
