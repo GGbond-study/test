@@ -2,11 +2,11 @@
 <h3> Think and Answer ME: Benchmarking and Exploring Multi-Entity Reasoning Grounding in Remote Sensing </h3>
 
   <p align="center">
-    <a href='https://arxiv.org/abs/2505.18660'>
+    <a href='https://www.baidu.com'>
       <img src='https://img.shields.io/badge/Paper-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'> </a>
-    <a href='https://hzlsaber.github.io/projects/So-Fake/'  style='padding-left: 0.5rem;'>
+    <a href='https://www.baidu.com'  style='padding-left: 0.5rem;'>
       <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue' alt='Project Page'> </a>
-    <a href='https://huggingface.co/datasets/saberzl/So-Fake-Set' style='padding-left: 0.5rem;'>
+    <a href='https://www.baidu.com' style='padding-left: 0.5rem;'>
       <img src='https://img.shields.io/badge/Hugging%20Face-Dataset-orange?logo=huggingface' alt='Dataset'>
   </p>
 </div>
@@ -33,7 +33,7 @@ Recent advances in reasoning language models and reinforcement learning with ver
 ## Overview
 
 <div align="left">
-  <img src="ECCV2026/Figs/Fig1.png" width="100%">
+  <img src="Figs/Fig1.png" width="100%">
     <figcaption>
   <strong>(a) Matching-based visual grounding.</strong> Conventional approach focuses on aligning a single referring expression with one target subject.
   <strong>(b) Multi-entity reasoning grounding.</strong> Our proposed approach explicitly extracts multiple entities and produces structured reasoning-aware outputs for more interpretable understanding of complex remote sensing scenes.
@@ -43,7 +43,7 @@ Recent advances in reasoning language models and reinforcement learning with ver
 ## Proposed Dataset: ME-RSRG
 
 <div align="left">
-  <img src="ECCV2026/Figs/Fig2.png" width="100%">
+  <img src="Figs/Fig2.png" width="100%">
     <figcaption>
   <strong>(a) Dataset production.</strong> The construction pipeline of ME-RSRG follows a 5-step process: dataset collection, instance selection, manual annotation, expert assessment, and CoT generation.
   <strong>(b) Dataset statics.</strong> ME-RSRG contains 7,162 images and 12,091 image-text instances, split into 10,305 training instances and 1,786 test instances.
@@ -68,7 +68,7 @@ ME-RSRG is constructed through a rigorous 5-step pipeline:
 ## Proposed Method: EAR Framework
 
 <div align="left">
-  <img src="ECCV2026/Figs/Fig3.png" width="100%">
+  <img src="Figs/Fig3.png" width="100%">
     <figcaption>
   <strong>Overview of EAR framework.</strong> We adopt a two-stage optimization strategy. SFT is first applied as a cold-start initialization. With SFT-parameters loaded to policy model, entity-aware reward-driven GRPO is then employed to further refine the model.
 </figcaption>
